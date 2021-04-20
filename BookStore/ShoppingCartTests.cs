@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Xunit;
 
@@ -6,9 +6,6 @@ namespace BookStore
 {
     public class ShoppingCartTests
     {
-        public class AddMemberToPolicyHandlerTests
-        {
-
             [Fact]
             public  void BookStore_DeliveryFees_NotCharged()
             {
@@ -52,6 +49,3 @@ namespace BookStore
             }
         }
     }
-}
-
-    
